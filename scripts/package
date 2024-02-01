@@ -6,7 +6,7 @@ source $(dirname $0)/version
 cd $(dirname $0)/..
 
 mkdir -p dist/artifacts
-cp bin/backup-restore-operator dist/artifacts/backup-restore-operator${SUFFIX}
+cp bin/backup-restore-operator-* dist/artifacts/
 
 IMAGE=${REPO}/backup-restore-operator:${TAG}
 DOCKERFILE=package/Dockerfile
