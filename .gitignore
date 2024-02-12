@@ -11,3 +11,5 @@ backup-restore-operator
 test-backup-location-local/
 .DS_Store
 /backups
+/tests/hull/output
+*~
